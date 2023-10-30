@@ -3,7 +3,9 @@ import openai
 
 def gpt(conversation):
     completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo", messages=conversation
+        #model="gpt-3.5-turbo", 
+        model="gpt-4", 
+        messages=conversation
     )
     print(completion.choices[0].message.content)
     return completion.choices[0].message.content
