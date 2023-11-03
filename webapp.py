@@ -53,9 +53,9 @@ if st.button("Record Audio"):
 
 if st.button("Summarize"):
     if language == "Swedish":
-        preprompt = "kan du sammanfatta följande text för mig? \n"
+        preprompt = "kan du sammanfatta följande text för mig så detaljerat och strukturerat som möjligt? \n"
     else:
-        preprompt = "can you summarize the following text for me? \n"
+        preprompt = "can you summarize the following text for me as detailed and structured as possible? \n"
     with open(f"{folder}/prompt.txt", "r") as f:
         
         prompt = f.read()
