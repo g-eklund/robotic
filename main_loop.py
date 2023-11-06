@@ -12,7 +12,7 @@ def main():
             content = "Du är en professionell assistent utvecklas av Modulai, det svenska ML-bolaget som ska hjälpa till med frågor, och du får inte väcka anstöt på något vis. ",
         )
     ]
-    text_to_speech("Hej! Jag är en robot. Jag kan svara på alla frågor du har. Fråga mig vad som helst!")
+    #text_to_speech("Hej! Jag är en robot. Jag kan svara på alla frågor du har. Fråga mig vad som helst!")
             
     while True:
         prompt = listen_and_respond()
